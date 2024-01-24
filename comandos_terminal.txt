@@ -1,0 +1,29 @@
+python -m virtualenv .venv (Cria ambiente virtual)
+
+git clone LINK (Clona os arquivos do repositório informado através do link)
+
+pip install -r requirements.txt (Baixe todos os pacotes do arquivo informado)
+
+django-admin help (Ajuda do Django)
+
+python manage.py help (Ajuda)
+
+django-admin startproject setup . (Criar um Projeto)
+
+pip freeze > requirements.txt (Criar arquivo txt com pacotes e suas versões)
+
+pip install python-dotenv (Usado para trazer as variáveis de ambiente, SECRET_KEY, em .env)
+
+python manage.py runserve (Ligar servidor)
+
+python manage.py startapp NOME_DO_APP (Criar um app)
+
+python manage.py collectstatic (Manipula arquivos estáticos do projeto)
+
+BANCO DE DADOS
+
+    python manage.py makemigrations (Criar migrações sempre que adicionamos um model)
+
+    python manage.py migrate (Realizar as migrações)
+
+    python manage.py shell (from galeria.models import CLASSE, foto = CLASSE(nome="Nebulosa de Carina", legenda="webbtelescope.org / NASA / James Webb", foto="carina-nebula.png"), foto.save(), CLASSE.objects.all())
